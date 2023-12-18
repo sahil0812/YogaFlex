@@ -15,8 +15,9 @@ YogaFlex app comprises of two processes, namely -
 So both the processes need to be running concurrently for the proper functioning of the app. We do so by following the following steps :
 
 1. Download the folder on your local machine to whatever location you feel comfortable with as a zip and unzip it.
-1. Create a new file in the folder just parallel to index.js named as “.env” and paste the following line on that file `` URI = "mongodb+srv://sahilpatil0812:ivKHxCtBo21CfvCO@yogaflex.sffwjyg.mongodb.net/?retryWrites=true&w=majority" ’’
+1. Create a new file in the folder just parallel to index.js named as “.env” and paste the following line on that file `` URI = "mongodb+srv://sahilpatil0812:ivKHxCtBo21CfvCO@yogaflex.sffwjyg.mongodb.net/?retryWrites=true&w=majority" 
 1. Open two concurrent terminals for two separate processes, and move to the project folder on both terminals(frontend & backend).
+2. Before that, just add `` "http://localhost:3000/getData" `` link in handleSubmit function in App.jsx in frontend section to run site on local server. 
 1. Type `` cd frontend `` on one terminal and `` cd backend `` on another terminal.
 1. Run following commands on backend terminal, which will run our backend Server.
    > npm install
@@ -30,6 +31,10 @@ So both the processes need to be running concurrently for the proper functioning
 
 1. Move to frontend section.
 
+# ER-Diagram
+![Screenshot of YogaFlex ER-Diagram](https://github.com/sahil0812/YogaFlex/blob/main/ss/ER-Diagram.png)
+
 # Screenshot
 
 ![Screenshot of YogaFlex homepage](https://github.com/sahil0812/YogaFlex/blob/main/ss/yogaForm.png)
+
