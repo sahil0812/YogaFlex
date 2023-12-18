@@ -30,7 +30,7 @@ function App() {
     e.preventDefault();
     try {
       const response = await Axios.post(
-        "http://localhost:3000/getData",
+        "https://yogaflex.onrender.com/getData",
         formData
       );
       console.log(response.data);
